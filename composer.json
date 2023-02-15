@@ -1,0 +1,15 @@
+{
+    "name": "linekersantaterra/teste-fullstack-php-master",
+    "autoload": {
+        "psr-4": {
+            "Linekersantaterra\\TesteFullstackPhpMaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lineker Santaterra",
+            "email": "lineker_ss@outlook.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,124 @@
+.data-area .vehicle-details
+{
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  margin-right: -100%;
+  transition: all .2s ease-in-out;
+}
+
+.data-area .vehicle-details-show
+{
+  margin-right: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+.data-area .vehicle-details .vehicle-details-title
+{
+  display: block;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #364147;
+  padding: 40px 0 10px 0;
+}
+
+.data-area .vehicle-details .details-area
+{
+  width: 100%;
+  height: calc(100% - 70px);
+  overflow: auto;
+  background: #f1f2f0;
+}
+
+.data-area .vehicle-details .details-area .details-content
+{
+  width: 100%;
+  height: calc(100% - 80px);
+  overflow: auto;
+  padding: 20px;
+}
+
+.data-area .vehicle-details .details-area .details-content .vehicle-name
+{
+  color: #4c8d74;
+  font-size: 16pt;
+  padding: 10px 0 20px 0;
+}
+
+.data-area .vehicle-details .details-area .details-content .others-details
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data-area .vehicle-details .details-area .details-content .others-details .item
+{
+  width: 50%;
+}
+
+.data-area .vehicle-details .details-area .details-content .others-details .item .label,
+.data-area .vehicle-details .details-area .details-content .others-details .item .data
+{
+  display: block;
+}
+
+.data-area .vehicle-details .details-area .details-content .others-details .item .label
+{
+  font-size: 12pt;
+  font-weight: bold;
+  color: #364147;
+}
+
+.data-area .vehicle-details .details-area .details-content .others-details .item .data
+{
+  font-size: 14pt;
+  text-transform: uppercase;
+  color: #8f9597;
+}
+
+.data-area .vehicle-details .details-area .details-content .description
+{
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: calc(100% - 130px);
+  overflow: auto;
+}
+
+
+.data-area .vehicle-details .details-area .controls
+{
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid #c3c3c3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data-area .vehicle-details .details-area .controls .btn-edit,
+.data-area .vehicle-details .details-area .controls .btn-drop
+{
+  border: none;
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  font-size: 14pt;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data-area .vehicle-details .details-area .controls .btn-edit {
+  background: #45535a;
+  color: #eeefed;
+}
+
+.data-area .vehicle-details .details-area .controls .btn-drop {
+  background: #f33e3e;
+  color: #eeefed;
+}

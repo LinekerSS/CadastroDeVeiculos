@@ -1,0 +1,21 @@
+.content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #e2e4e1;
+  z-index: -1;
+}
+
+@media screen and (min-width: 1000px) {
+ .content {
+   height: calc(100% - 60px);
+ }
+}
+
+@media screen and (max-width: 1000px) {
+  .content {
+    height: calc(100% - 100px);
+  }
+}
